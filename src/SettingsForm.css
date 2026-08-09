@@ -1,0 +1,105 @@
+.settings-form-section {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.settings-form {
+  width: 100%;
+  max-width: 28rem;
+  padding: 1.5rem;
+  border: 1px solid #d8dee9;
+  border-radius: 0.75rem;
+  background-color: #ffffff;
+  box-shadow: 0 0.25rem 1rem rgba(15, 23, 42, 0.08);
+}
+
+.settings-form__header {
+  margin-bottom: 1.5rem;
+}
+
+.settings-form__title {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.settings-form__subtitle {
+  margin: 0;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.settings-form__field {
+  margin-bottom: 1rem;
+}
+
+.settings-form__label {
+  display: block;
+  margin-bottom: 0.375rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.settings-form__input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.625rem 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.settings-form__input:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 1px;
+  border-color: #2563eb;
+}
+
+.settings-form__input[aria-invalid="true"] {
+  border-color: #dc2626;
+}
+
+.settings-form__error {
+  margin: 0.375rem 0 0;
+  color: #b91c1c;
+  font-size: 0.875rem;
+}
+
+.settings-form__submit {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.settings-form__submit:hover {
+  background-color: #1d4ed8;
+}
+
+.settings-form__submit:focus-visible {
+  outline: 2px solid #1e40af;
+  outline-offset: 2px;
+}
+
+.settings-form__success {
+  margin: 1rem 0 0;
+  color: #166534;
+  font-size: 0.95rem;
+}
+
+@media (min-width: 48rem) {
+  .settings-form-section {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .settings-form {
+    padding: 2rem;
+  }
+}
