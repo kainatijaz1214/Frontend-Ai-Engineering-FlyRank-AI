@@ -1,78 +1,16 @@
-# Frontend AI Engineering — FlyRank AI
+# React + Vite
 
-A repository for the **Frontend AI Engineering** track, focused on building frontend applications with modern practices and AI-assisted workflows.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-## Table of Contents
+Currently, two official plugins are available:
 
-- [About](#about)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [AI-Assisted Development](#ai-assisted-development)
-- [Development Principles](#development-principles)
-- [Project Status](#project-status)
-- [License](#license)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## About
+## React Compiler
 
-This repository documents and hosts work completed as part of the Frontend AI Engineering assignment. The goal is to develop frontend applications using modern development practices while integrating AI tools into the engineering workflow for planning, implementation, review, and debugging.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Tech Stack
+## Expanding the Oxlint configuration
 
-| Category        | Tools                          |
-| --------------- | ------------------------------ |
-| Frontend        | HTML, CSS, JavaScript          |
-| Runtime / Tools | Node.js                        |
-| Version Control | Git, GitHub                    |
-| AI Assistant    | Cursor                         |
-
-## Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (LTS recommended)
-- [Git](https://git-scm.com/)
-- A code editor (this project uses [Cursor](https://cursor.com/))
-
-### Setup
-
-```bash
-git clone https://github.com/<your-username>/Frontend-Ai-Engineering-FlyRank-AI.git
-cd Frontend-Ai-Engineering-FlyRank-AI
-```
-
-Additional install and run steps will be added here as the project grows (for example, `npm install` and a local dev server command).
-
-## AI-Assisted Development
-
-AI is used as a development assistant throughout this project for:
-
-- **Planning** — breaking down tasks and outlining implementation approaches
-- **Coding** — generating and refining HTML, CSS, and JavaScript
-- **Code review** — catching bugs, style issues, and readability problems
-- **Debugging** — diagnosing errors and suggesting fixes
-- **Documentation** — keeping README and inline docs accurate and clear
-
-Significant AI-assisted changes are reviewed before being committed.
-
-## Development Principles
-
-- Keep code simple and readable.
-- Use clear and descriptive names.
-- Prefer small, focused functions.
-- Avoid unnecessary dependencies.
-- Keep files organised by responsibility.
-- Never commit secrets, API keys, or environment variables.
-
-## Project Status
-
-| Item              | Status        |
-| ----------------- | ------------- |
-| Repository setup  | Complete      |
-| Frontend features | In progress   |
-| Documentation     | In progress   |
-
-Check commit history and future releases for the latest progress.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
